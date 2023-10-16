@@ -1,0 +1,8 @@
+unc updateUser() {
+        if APIManager.manager.reachability.connection == .none {
+            return
+        }
+        updateUserInProgress = true
+        interactor?.checkCurrentUserRequest()
+    }
+}
