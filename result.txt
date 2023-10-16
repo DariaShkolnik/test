@@ -1,0 +1,29 @@
+git status
+On branch main
+nothing to commit, working tree clean
+adimn@MacBook-Air-Dashka test % git branch
+  branch1
+* main
+adimn@MacBook-Air-Dashka test % git log 
+commit b4a66d1516e8e1f1f80f2d7737072614f9ebad71 (HEAD -> main, origin/main)
+Merge: c7c7924 5135813
+Author: DariaShkolnik <dashkkashkolnik.gmail.com>
+Date:   Mon Oct 16 17:03:33 2023 +0300
+
+    chanhge main1
+
+commit c7c79243d9bdf3dd4b89f4f8d6d70f2324325062
+Author: DariaShkolnik <dashkkashkolnik.gmail.com>
+Date:   Mon Oct 16 17:01:45 2023 +0300
+
+    change main1
+
+commit 5135813cb86f7186ff6191f679d3486069b6a451 (branch1)
+Author: DariaShkolnik <dashkkashkolnik.gmail.com>
+adimn@MacBook-Air-Dashka test % git log --merges
+commit b4a66d1516e8e1f1f80f2d7737072614f9ebad71 (HEAD -> main, origin/main)
+Merge: c7c7924 5135813
+Author: DariaShkolnik <dashkkashkolnik.gmail.com>
+Date:   Mon Oct 16 17:03:33 2023 +0300
+
+    chanhge main1
